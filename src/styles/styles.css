@@ -1,0 +1,85 @@
+.App {
+  color: white;
+}
+
+.Boton-Started {
+  width: 15em;
+  height: 3em;
+  border-radius: 25px !important;
+  font-weight: bold !important;
+  background-color: #5bbeb7 !important;
+}
+
+.Boton-Started:hover {
+  background-color: #65e2d9 !important;
+}
+
+html {
+  background-color: #1c2431;
+  @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@300&family=Rubik:ital,wght@0,500;1,400&display=swap");
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.hov:hover {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.fotoMain {
+  width: 40em;
+}
+@media (max-width: 600px) {
+  .fotoMain {
+    width: 100%;
+  }
+}
+
+.fylo {
+  margin-top: -19px;
+}
+
+.ash {
+  width: 15em;
+  height: 3em;
+  border-radius: 25px !important;
+  font-weight: bold !important;
+  background-color: #5bbeb7 !important;
+}
+@media (max-width: 600px) {
+  .ash {
+    width: 100%;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.alert {
+  color: red;
+  font-size: 12px;
+  margin-top: 2em;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .alert {
+    position: relative;
+  }
+}
+
+.yaplease {
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 3.6em;
+}
+@media (max-width: 600px) {
+  .yaplease {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
